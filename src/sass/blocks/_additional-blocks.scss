@@ -1,0 +1,59 @@
+.gray-block {
+  background: #262c27;
+  width: 100%;
+  height: 180px;
+}
+.forest {
+  background: url("../icon/three.svg") center (center/cover) no-repeat;
+  height: 456px;
+  position: absolute;
+  width: 100%;
+  bottom: -200px;
+  z-index: 2;
+  &_down {
+    bottom: 0;
+    transform: rotate(180deg);
+    &-1 {
+      bottom: -400px;
+    }
+    &-2 {
+      bottom: -350px;
+    }
+  }
+  &__white {
+    bottom: -286px;
+    z-index: 4;
+    background: url("../icon/forest_white.png") center (center/cover) no-repeat;
+  }
+}
+
+.decor-text {
+  position: absolute;
+  color: #0093a1;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 32px;
+  z-index: 3;
+
+  &_big-1,
+  &_big-2 {
+    font-style: normal;
+    font-family: "Comfortaa", cursive;
+    font-weight: 400;
+    font-size: 130px;
+    opacity: 0.3;
+  }
+  &_big-1 {
+    z-index: 1;
+    bottom: -289px;
+    right: 165px;
+  }
+  &_big-2 {
+    bottom: -430px;
+    left: 290px;
+  }
+  &-small {
+    bottom: -382px;
+    right: 165px;
+  }
+}

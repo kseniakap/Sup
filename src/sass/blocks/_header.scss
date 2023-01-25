@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 103px;
+  &__logo {
+    transition: all 5s ease-in;
+    width: 158px;
+    height: 34px;
+    svg {
+      width: 100%;
+    }
+    &:hover path {
+      fill: #0093a1;
+    }
+  }
+  &__btn {
+    height: 45px;
+    width: 194px;
+    background-color: #262c27;
+    font-family: "Comfortaa", cursive;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 45px;
+    border: none;
+    color: #ffffff;
+    transition: all 0.3s;
+    &:hover {
+      background-color: #b9c400;
+      color: #262c27;
+    }
+  }
+  &__phone {
+    font-family: "Comfortaa", cursive;
+    font-weight: 700;
+    font-size: 20px;
+    color: #262c27;
+    text-decoration: none;
+    transform: all 0.3s;
+    &:hover {
+      transform: scale(1.2);
+      color: black;
+    }
+  }
+}

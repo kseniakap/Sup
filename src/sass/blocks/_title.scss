@@ -1,0 +1,17 @@
+.title {
+  font-family: "Comfortaa", cursive;
+  font-weight: 400;
+  font-size: 60px;
+  text-transform: uppercase;
+  color: #ffffff;
+  &_white {
+    margin-right: 162px;
+  }
+  &_blue {
+    color: #0093a1;
+  }
+  &_black {
+    color: #262c27;
+    margin-top: 255px;
+  }
+}

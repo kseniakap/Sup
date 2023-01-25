@@ -1,0 +1,30 @@
+.button {
+  border: none;
+  background-color: transparent;
+  transition: all 0.3s;
+  &:hover path {
+    fill: #b9c400;
+    color: #0093a1;
+  }
+  &:hover circle {
+    stroke: #b9c400;
+  }
+  span {
+    display: block;
+    margin-top: 12px;
+    color: #ffffff;
+    transition: color .3s;
+    &:hover {
+      color: #0093a1;
+    }
+  }
+}
+.info__btn {
+  margin-top: 82px;
+  margin-left: 200px;
+}
+.technology__btn {
+  position: absolute;
+  left: 65%;
+  top: -60%;
+}
